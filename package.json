@@ -1,0 +1,39 @@
+{
+	"name": "vue-scaffold",
+	"description": "scaffolds vue components",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"vue-scaffold": "index.js",
+		"vues": "index.js"
+	},
+	"author": {
+		"name": "Floyd Haremsa",
+		"email": "floyd.h@gmx.de",
+		"url": "none"
+	},
+	"keywords": [
+		"vue-scaffold",
+		"Floyd Haremsa"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\"",
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"meow": "^9.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	}
+}
